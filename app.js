@@ -9,7 +9,6 @@ const mongo_url = process.env.ATLASDB_URL;
 const methodOverride = require("method-override");
 const ejsmate = require("ejs-mate");
 const multer = require("multer");
-const upload = multer({dest : '/uploads'});
 const listingRouter = require("./routes/listing.js");
 const reviewsRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
